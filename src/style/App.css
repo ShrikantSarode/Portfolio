@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    
+}
+ul{
+    height: 70px;
+  
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 30px;
+    padding: 20px;
+    font-size: 33px;
+}
+#bg-img{
+    height: 80vh;
+    width: 100%;
+    background-image: url(/src/img/crs4-2592dfe6.jpg);
+    position: relative;
+    background-size: cover;
+    display: inline-block;
+    padding: 0;
+}
+.text-home{
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    color: #464E95;
+    text-shadow: 2px 5px 5px grey;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+.text-home1{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    /* color: #537895; */
+    color: #464E95;
+    text-shadow: 2px 5px 5px grey;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+}
+/* form css */
+
+#frame{
+    position: relative;
+    top: 200px;
+}
+
+
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    width: 25%;
+    margin-left:150px ;
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(83, 129, 15);
+  }
+
+  /* ss */
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content-container {
+    flex: 1;
+    background-color: #f4f4f4;
+  }
+  /* skills.css */
+#skill-head{
+    color: #464E95;
+    font-size: 33px;
+    text-shadow: 3px 2px 3px grey;
+    font-weight: 800;
+}
+.skills-container {
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-item {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #176B87;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #176B87;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="range"]:hover {
+    background-color: #176B87;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #3cba92;
+    cursor: pointer;
+    box-shadow: 0 0 10px #3cba92(52, 152, 219, 0.5);
+  }
+  
+  span {
+    display: inline-block;
+    margin-left: 10px;
+    color: #4e4376;
+  }
+  
+  /* Card.css */
+  #card-frame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+
+  }
+  
+  .card {
+    height: 300px;
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(/src/img/crs1-af944bc2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-heading {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  /* About */
+  #about-heading{
+    /* font-size: 50px; */
+    /* color: #464E95; */
+    color: white;
+    text-shadow: 5px 5px 5px grey;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+  #About{
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+  }
+  /* contact */
+  #Contact{
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    height: 92vh;
+  }
